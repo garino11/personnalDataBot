@@ -128,7 +128,7 @@ let handlePostback = (sender_psid, received_postback) => {
 
     // Set the response based on the postback payload
     if (payload === 'yes') {
-        response = { "text": sender_psid }
+        response = { "text": "Thanks!" }
     } else if (payload === 'no') {
         response = { "text": "Oops, try sending another image." }
     }
@@ -143,7 +143,7 @@ let callSendAPI = (sender_psid, response) => {
         "recipient": {
             "id": sender_psid
         },
-        "message": response
+        "message": sender_psid
     };
 
     // Send the HTTP request to the Messenger Platform
