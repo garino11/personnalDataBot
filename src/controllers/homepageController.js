@@ -86,7 +86,7 @@ let handleMessage = (sender_psid, received_message) => {
             "attachment": {
                 "type": "template",
                 "payload": {
-                    "template_type": "generic",
+                    "template_type": "button",
                     "elements": [{
                         "title": "Acceptez-vous les conditions",
                         "subtitle": "Appuyez sur un bouton pour répondre.",
