@@ -95,16 +95,6 @@ let handleMessage = (sender_psid, received_message) => {
                                 "type": "web_url",
                                 "url": "https://personnaldatabot.herokuapp.com/",
                                 "title": "title",
-                            },
-                            {
-                                "type": "postback",
-                                "title": "Yes!",
-                                "payload": "yes",
-                            },
-                            {
-                                "type": "postback",
-                                "title": "No!",
-                                "payload": "no",
                             }
                         ],
                     }]
