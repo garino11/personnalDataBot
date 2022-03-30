@@ -88,18 +88,13 @@ let handleMessage = (sender_psid, received_message) => {
                 "payload": {
                     "template_type": "generic",
                     "elements": [{
-                        "title": "Acceptez-vous les conditions",
+                        "title": "Pour continuer, acceptez-vous les conditions",
                         "subtitle": "Appuyez sur un bouton pour répondre.",
                         "buttons": [
                             {
                                 "type": "postback",
                                 "title": "Yes!",
                                 "payload": "yes",
-                            },
-                            {
-                                "type": "postback",
-                                "title": "No!",
-                                "payload": "no",
                             }
                         ],
                     }]
