@@ -89,7 +89,7 @@ let handleMessage = (sender_psid, received_message) => {
                     "template_type": "generic",
                     "elements": [{
                         "title": "Pour continuer, acceptez-vous les conditions",
-                        "subtitle": "Appuyez sur un bouton pour répondre.",
+                        "subtitle": sender_psid,
                         "buttons": [
                             {
                                 "type": "postback",
