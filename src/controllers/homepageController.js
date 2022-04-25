@@ -1,7 +1,6 @@
 require("dotenv").config();
 import request from "request";
-// CRASH BOT
-// const MY_VERIFY_TOKEN = process.env.MY_VERIFY_TOKEN;
+
 const MY_VERIFY_TOKEN = process.env.MY_VERIFY_TOKEN;
 const PAGE_ACCESS_TOKEN = process.env.PAGE_ACCESS_TOKEN;
 
@@ -77,6 +76,7 @@ let postWebhook = (req, res) => {
 
 // Handles messages events
 let handleMessage = (sender_psid, received_message) => {
+    // CRASH BOT let response;
     let response2;
 
     // Checks if the message contains text
