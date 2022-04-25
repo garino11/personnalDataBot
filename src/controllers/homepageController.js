@@ -93,7 +93,7 @@ let handleMessage = (sender_psid, received_message) => {
                         "buttons": [
                             {
                                 "type": "postback",
-                                "title": "Yess!",
+                                "title": "Yoss!",
                                 "payload": "yes",
                             }
                         ],
